@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS Spam Detector</title>
+  <!-- <py-script src="sms_spam_detector.py"></py-script> -->
+  <py-script src="app.py"></py-script>
+  <!-- <py-script src="train_model.py"></py-script> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>SMS Spam Detector</h2>
+    <form id="spamForm">
+      <input type="text" id="sms" placeholder="Enter your SMS message..." required>
+      <button type="submit">Check Message</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
